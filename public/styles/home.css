@@ -1,0 +1,93 @@
+#page-home{
+    height: 100vh;
+    background: url('../assets/home-background.svg') no-repeat;
+    background-position: 35vw bottom;
+    
+}
+#page-home .content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1100px;
+}
+#page-home header{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px
+}
+
+#page-home .content header a{
+    display: flex;
+    color: var(--title-color);
+    font-weight: 700;
+    transition: 400ms;
+
+} 
+#page-home .content header a span{
+    margin-right: 10px;
+    display: flex;
+    background-image: url('../assets/log-in.svg');
+    width: 20px;
+    height: 20px;
+}
+
+#page-home main{
+    max-width: 560px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#page-home h1{
+    font-size: 54px;
+}
+#page-home main a{
+    background-color: var(--buttons-color);
+    width: 300px;
+    height: 80px;
+    border-radius: 8px;
+    border-color: transparent;
+    transition: 400ms;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#page-home main a span{
+    height: 100%;
+    width: 20%;
+    background-color: #00000015;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#page-home main a span::after{
+    content: "";
+    background-image: url('../assets/search.svg');
+    width: 20px;
+    height: 20px;
+}
+#page-home main a:hover{
+    background-color: #2fb86e;
+}
+#page-home main p{
+    font-size: 24px;
+}
+#page-home main a{
+    width: 100%;
+    max-width: 360px;
+    background: var(--primary-color);
+    
+}
+#page-home main a strong{
+    color: white;
+    flex: 1;
+    text-align: center;
+}
